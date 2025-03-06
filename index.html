@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let hasTicket = true;
+
+        if (hasTicket) {
+            console.log("You can enter the concert.");
+        } else {
+            console.log("You cannot enter the concert.");
+        }
+
+        let weather = "rainy";
+
+        if (weather === "sunny") {
+            console.log("Wear sunglasses and light clothing.");
+        } else if (weather === "cloudy") {
+            console.log("It might be cool, wear a light jacket.");
+        } else if (weather === "rainy") {
+            console.log("Take an umbrella and wear a raincoat.");
+        } else {
+            console.log("Check the weather forecast for proper clothing.");
+        }
+
+        let fruit = "apple";
+        switch (fruit) {
+            case "banana":
+                console.log("Banana is yellow.");
+                break;
+            case "apple":
+                console.log("Apple is red.");
+                break;
+            case "grape":
+                console.log("Grape is purple.");
+                break;
+            default:
+                console.log("Unknown fruit.");
+        }
+
+        // While Loop
+        let count = 0;
+        while (count < 5) {
+            console.log("Count is: " + count);
+            count++;
+        }
+
+        // Do-While Loop
+        let number = 0;
+        do {
+            console.log("Number is: " + number);
+            number++;
+        } while (number < 5);
+    </script>
+</body>
+</html>
